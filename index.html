@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CEFITEV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#2b6cb0;--muted:#6b7280;--bg:#f7fafc}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:#111}
+    .container{max-width:980px;margin:32px auto;padding:24px;background:#fff;border-radius:12px;box-shadow:0 6px 24px rgba(9,10,15,0.06)}
+    header{display:flex;align-items:center;gap:18px}
+    .avatar{width:96px;height:96px;border-radius:12px;flex:0 0 96px;background:linear-gradient(135deg,var(--accent),#6ea8fe);display:grid;place-items:center;color:#fff;font-weight:700}
+    .name{font-size:1.6rem;margin:0}
+    .subtitle{color:var(--muted);margin-top:6px;font-size:0.95rem}
+    nav{margin-top:18px;border-top:1px solid #eef2f7;padding-top:14px}
+    .nav-links{display:flex;gap:12px;flex-wrap:wrap}
+    .nav-links a{color:var(--accent);text-decoration:none;padding:6px 10px;border-radius:8px;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 250px;gap:20px;margin-top:18px}
+    .card{background:#fbfdff;padding:18px;border-radius:10px}
+    .section{margin-top:20px}
+    h2{margin:0 0 10px 0}
+    p{color:#333;line-height:1.5}
+    ul{padding-left:1.05rem}
+    footer{margin-top:26px;padding-top:16px;border-top:1px solid #eef2f7;color:var(--muted);font-size:0.9rem}
+    .contact-list{display:flex;flex-direction:column;gap:6px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef6ff;color:var(--accent);font-weight:600}
+    @media (max-width:760px){.hero{grid-template-columns:1fr;}.avatar{width:82px;height:82px}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="avatar">GA</div>
+      <div>
+        <h1 class="name">CEFITEV</h1>
+        <div class="subtitle">Centro de Física Teórica de Valparaíso)</div>
+        <div style="margin-top:8px"><span class="pill">CEFITEV</span> <span style="margin-left:8px;color:var(--muted);font-size:0.9rem">Universidad de Valparaíso</span></div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#community">Community</a>
+        <a href="#contact">Contact</a>
+        <a href="#misc">Misc</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="card">
+        <h2 id="about">Nosotros</h2>
+        <p>Integrantes del CEFITEV del Instituto de Física y Astronomía de la Universidad de Valparaíso.</p>
+      
+      </div>
+
+      <aside style="display:flex;flex-direction:column;gap:12px">
+        <div class="card">
+          <h3 style="margin:0 0 8px 0">Quick Links</h3>
+          <ul style="margin:0;padding-left:18px;color:var(--muted)">
+            <li><a href="#research">Publications</a></li>
+            <li><a href="#contact">Email</a></li>
+  
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 8px 0">Currently</h3>
+          <p style="margin:0;color:var(--muted)">Associate Researcher @ CBPF. Working on cross-correlations and non-Gaussian statistics of weak lensing maps.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section card" id="research">
+      <h2>Investigación</h2>
+      <p>El CEFITEV comprende las áreas de física de altas energías, física matemática, métodos numéricos, cosmología y gravitación.</p>
+      <ul>
+        <li>Física de Partículas</li>
+        <li>Física Matemática</li>
+        <li>Cosmología y Gravitación</li>
+      </ul>
+      <p style="margin-top:8px"><strong>Selected collaborations:</strong> CERN · Euclid · Vera Rubin LSST-DESC</p>
+    </section>
+
+    <section class="section card" id="community">
+      <h2>Docencia</h2>
+      <p>Teaching material..?</p>
+    </section>
+
+    <section class="section card" id="contact">
+      <h2>Contact</h2>
+      <div class="contact-list">
+        <div>Email: <a href="mailto:daniela.grandon@uv.cl">daniela.grandon@uv.cl</a></div>
+        <div>Work: daniela.grandon@uv.cl</div>
+        <div>GitHub: <a href="https://github.com/danielagrandon">github.com/danielagrandon</a></div>
+      </div>
+    </section>
+
+    <section class="section card" id="misc">
+      <h2>Difusión</h2>
+      <p> Actividades de vinculación con el medio del Centro de Física Teórica de Valparaíso</p>
+    </section>
+
+    <footer>
+      © Your Name • Template inspired by a public academic website.
+    </footer>
+  </main>
+</body>
+</html>
