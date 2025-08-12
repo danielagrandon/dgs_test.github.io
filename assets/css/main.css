@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1619,7 +1622,38 @@ input, select, textarea {
 			}
 
 		}
+.team-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* espacio entre filas */
+    margin-top: 2rem;
+}
 
+.team-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem; /* espacio entre columnas */
+}
+
+.team-member {
+    flex: 1; /* para que cada miembro ocupe el mismo ancho */
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%; /* bordes redondeados */
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border: 3px solid #ddd; /* opcional, borde ligero */
+}
+
+.team-member p {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+}
 /* Footer */
 
 	#footer {
