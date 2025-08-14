@@ -1642,7 +1642,7 @@ input, select, textarea {
 
 .team-member img {
     width: 100%;
-    max-width: 170px;
+    max-width: 163px;
     border-radius: 50%; /* bordes redondeados */
     object-fit: cover;
     margin-bottom: 2rem;
@@ -1651,7 +1651,7 @@ input, select, textarea {
 
 .team-member p {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0;
 }
 /* Footer */
@@ -1690,6 +1690,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
