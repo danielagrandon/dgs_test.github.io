@@ -1624,6 +1624,7 @@ input, select, textarea {
 		}
 .team-gallery {
     display: flex;
+	background-color: transparent;
     flex-direction: column;
     gap: 2rem; /* espacio entre filas */
     margin-top: 2rem;
@@ -1660,15 +1661,12 @@ input, select, textarea {
 }
 .descripcion-nosotros {
   font-size: 1.5rem;
+background-color: transparent;
   /*font-weight: 500;   /* Más grueso */
   /*line-height: 1.4;   /* Más espacio entre líneas */
 }
 
-#main article p.intro {
-    background-color: rgba(27, 31, 34, 0.85); /* same transparency as the bigger box */
-    padding: 1rem;
-    border-radius: 4px;
-}
+
 /* Footer */
 
 	#footer {
@@ -1705,6 +1703,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
