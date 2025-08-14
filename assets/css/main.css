@@ -963,11 +963,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #ffffff;
+			border-bottom: solid 3px #ffffff;
 		}
 
 		table tfoot {
-			border-top: solid 2px #ffffff;
+			border-top: solid 3px #ffffff;
 		}
 
 		table.alt {
@@ -1018,7 +1018,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		font-weight: 300;
 		height: 2.75rem;
 		letter-spacing: 0.2rem;
@@ -1331,7 +1331,7 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
@@ -1690,4 +1690,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
