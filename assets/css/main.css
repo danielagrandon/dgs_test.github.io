@@ -1546,7 +1546,7 @@ input, select, textarea {
 			position: relative;
 			width: 80rem;
 			max-width: 100%;
-			background-color: transparent; /*rgba(27, 31, 34, 0.85);*/
+			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1663,6 +1663,12 @@ input, select, textarea {
   /*font-weight: 500;   /* Más grueso */
   /*line-height: 1.4;   /* Más espacio entre líneas */
 }
+
+#main article p.intro {
+    background-color: rgba(27, 31, 34, 0.85); /* same transparency as the bigger box */
+    padding: 1rem;
+    border-radius: 4px;
+}
 /* Footer */
 
 	#footer {
@@ -1699,6 +1705,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
