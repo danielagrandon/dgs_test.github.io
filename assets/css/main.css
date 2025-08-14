@@ -1636,7 +1636,11 @@ input, select, textarea {
 }
 
 .team-member {
-    flex: 1; /* para que cada miembro ocupe el mismo ancho */
+	display: flex;
+	flex-direction: column; /* Imagen arriba, texto abajo */
+    align-items: center;    /* Centra horizontalmente ambos */
+    text-align: center; 
+    /*flex: 1; /* para que cada miembro ocupe el mismo ancho */
     text-align: center;
 }
 
@@ -1690,6 +1694,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
